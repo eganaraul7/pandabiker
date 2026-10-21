@@ -1,0 +1,23 @@
+# Panda Biker — PHP + MySQL/MariaDB (XAMPP). Lo que no debe subirse a GitHub.
+
+# Configuración local de la base de datos (se versiona config.example.php con los valores de XAMPP)
+config.local.php
+
+# Registros y temporales de PHP o del servidor
+*.log
+*.tmp
+error_log
+
+# Copias de seguridad locales de la base de datos (panda.sql, el script de instalación, SÍ se sube)
+*.sql.bak
+*-backup.sql
+dump-*.sql
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
